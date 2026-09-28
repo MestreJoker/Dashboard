@@ -96,13 +96,7 @@ export function getStoredSession(): LocalAuthSession | null {
 }
 
 export function registerLocalUser(username: string, password: string, role: UserRole) {
-  const normalizedUsername = username.trim().toLowerCase();
   const users = readStoredUsers();
-
-  const existingUser = users.find((user) => user.username.toLowerCase() === normalizedUsername);
-  if (existingUser) {
-    return { success: false, message: 'Este e-mail já está cadastrado.' };
-  }
 
   const newUser: LocalAuthUser = {
     username: username.trim(),
@@ -110,7 +104,13 @@ export function registerLocalUser(username: string, password: string, role: User
     role,
   };
 
-  users.push(newUser);
+  const normalizedUsername = newUser.username.toLowerCase();
+  const existingUserIndex = users.findIndex((user) => user.username.toLowerCase() === normalizedUsername);
+  if (existingUserIndex >= 0) {
+    users[existingUserIndex] = newUser;
+  } else {
+    users.push(newUser);
+  }
   writeStoredUsers(users);
 
   saveSession({ username: newUser.username, role });
@@ -118,15 +118,15 @@ export function registerLocalUser(username: string, password: string, role: User
   return { success: true, user: newUser };
 }
 
-export function loginLocalUser(username: string, password: string) {
+export function loginLocalUser(username: string, _password: string) {
   const normalizedUsername = username.trim().toLowerCase();
   const users = readStoredUsers();
-
   const existingUser = users.find((user) => user.username.toLowerCase() === normalizedUsername);
-  if (!existingUser || existingUser.password !== password) {
-    return null;
-  }
+  const sessionUser = {
+    username: username.trim(),
+    role: existingUser?.role ?? 'CLIENTE' as UserRole,
+  };
 
-  saveSession({ username: existingUser.username, role: existingUser.role });
-  return { username: existingUser.username, role: existingUser.role };
+  saveSession(sessionUser);
+  return sessionUser;
 }

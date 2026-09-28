@@ -48,15 +48,6 @@ export default function Dashboard() {
     }, [router]);
 
     async function confirmarSaida() {
-        try {
-            await fetch('/api/auth/logout', {
-                method: 'POST',
-                credentials: 'include'
-            });
-        } catch (error) {
-            console.error('Erro ao fazer logout:', error);
-        }
-
         clearSession();
         router.push('/login');
     }

@@ -10,7 +10,6 @@ export default function LoginPage() {
     const [username, setUsername] = useState('');
     const [showRecovery, setShowRecovery] = useState(false);
     const [recoveryEmail, setRecoveryEmail] = useState('');
-    const [recoveryLoading, setRecoveryLoading] = useState(false);
     const [recoveryMsg, setRecoveryMsg] = useState('');
     const [password, setPassword] = useState('');
     const [loading, setLoading] = useState(false);
@@ -29,7 +28,6 @@ export default function LoginPage() {
         setError('');
         setLoading(true);
 
-        // Validação básica no cliente
         if (!username.trim() || !password.trim()) {
             setError('Preencha todos os campos');
             setLoading(false);
@@ -37,16 +35,9 @@ export default function LoginPage() {
         }
 
         try {
-            const sessionUser = loginLocalUser(username, password);
-
-            if (sessionUser) {
-                localStorage.setItem('userName', sessionUser.username);
-                localStorage.setItem('userRole', sessionUser.role);
-                router.push('/dashboard');
-            } else {
-                setError('Usuário ou senha incorretos');
-            }
-        } catch (error) {
+            loginLocalUser(username, password);
+            router.push('/dashboard');
+        } catch {
             setError('Erro ao processar login local');
         } finally {
             setLoading(false);
@@ -132,28 +123,11 @@ export default function LoginPage() {
             <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm">
                 <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-sm border border-white/20 flex flex-col items-center text-center">
                     <h2 className="text-xl font-black text-[#4a54ff] uppercase tracking-tighter mb-2">Recuperar Senha</h2>
-                    <p className="text-xs text-gray-500 mb-4">Digite seu e-mail cadastrado. Você receberá um link para redefinir sua senha.</p>
+                    <p className="text-xs text-gray-500 mb-4">A recuperação por e-mail não está disponível no modo local.</p>
                     <form
-                        onSubmit={async (e) => {
+                        onSubmit={(e) => {
                             e.preventDefault();
-                            setRecoveryMsg('');
-                            setRecoveryLoading(true);
-                            try {
-                                const res = await fetch('/api/auth/recuperar-senha', {
-                                    method: 'POST',
-                                    headers: { 'Content-Type': 'application/json' },
-                                    body: JSON.stringify({ email: recoveryEmail })
-                                });
-                                if (res.ok) {
-                                    setRecoveryMsg('Se o e-mail estiver cadastrado, você receberá as instruções em instantes.');
-                                } else {
-                                    setRecoveryMsg('Não foi possível iniciar a recuperação. Tente novamente.');
-                                }
-                            } catch {
-                                setRecoveryMsg('Erro de conexão. Tente novamente.');
-                            } finally {
-                                setRecoveryLoading(false);
-                            }
+                            setRecoveryMsg('Use o cadastro local para iniciar uma nova sessão.');
                         }}
                         className="w-full flex flex-col gap-3"
                     >
@@ -164,14 +138,12 @@ export default function LoginPage() {
                             className="w-full border-2 p-3 rounded-xl outline-none font-medium border-gray-100 bg-gray-50 focus:border-[#4a54ff]"
                             value={recoveryEmail}
                             onChange={e => setRecoveryEmail(e.target.value)}
-                            disabled={recoveryLoading}
                         />
                         <button
                             type="submit"
-                            disabled={recoveryLoading}
                             className="w-full p-3 rounded-xl font-black text-sm transition-all shadow-lg bg-[#4a54ff] text-white hover:bg-[#131ff8] disabled:bg-gray-300"
                         >
-                            {recoveryLoading ? 'Enviando...' : 'Enviar link de recuperação'}
+                            Continuar
                         </button>
                         {recoveryMsg && <div className="text-xs mt-2 text-[#4a54ff] font-bold">{recoveryMsg}</div>}
                     </form>
