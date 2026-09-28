@@ -1,0 +1,234 @@
+{
+  "registros": [
+    {
+      "ano_mes": 202501,
+      "bancada": [
+        { "label": "Bancada A", "valor": 1200, "cor": "#3b82f6" },
+        { "label": "Bancada B", "valor": 800, "cor": "#22c55e" },
+        { "label": "Bancada C", "valor": 1500, "cor": "#eab308" },
+        { "label": "Bancada R", "valor": 500, "cor": "#a855f7" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Alpha", "valor": 2500, "cor": "#0ea5e9" },
+        { "label": "Empresa Beta", "valor": 1500, "cor": "#8b5cf6" }
+      ],
+      "material": [
+        { "label": "E-lixo", "valor": 3000, "cor": "#64748b" },
+        { "label": "Plástico", "valor": 1000, "cor": "#10b981" }
+      ]
+    },
+    {
+      "ano_mes": 202502,
+      "bancada": [
+        { "label": "Bancada A", "valor": 900, "cor": "#3b82f6" },
+        { "label": "Bancada B", "valor": 1100, "cor": "#22c55e" },
+        { "label": "Bancada D", "valor": 400, "cor": "#ef4444" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Gamma", "valor": 2000, "cor": "#ec4899" },
+        { "label": "Empresa Delta", "valor": 400, "cor": "#f43f5e" }
+      ],
+      "material": [
+        { "label": "Metal", "valor": 1800, "cor": "#475569" },
+        { "label": "Vidro", "valor": 600, "cor": "#06b6d4" }
+      ]
+    },
+    {
+      "ano_mes": 202503,
+      "bancada": [
+        { "label": "Bancada C", "valor": 2000, "cor": "#eab308" },
+        { "label": "Bancada E", "valor": 1200, "cor": "#f97316" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Alpha", "valor": 3200, "cor": "#0ea5e9" }
+      ],
+      "material": [
+        { "label": "E-lixo", "valor": 3200, "cor": "#64748b" }
+      ]
+    },
+    {
+      "ano_mes": 202504,
+      "bancada": [
+        { "label": "Bancada A", "valor": 1500, "cor": "#3b82f6" },
+        { "label": "Bancada B", "valor": 1500, "cor": "#22c55e" },
+        { "label": "Bancada R", "valor": 1500, "cor": "#a855f7" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Beta", "valor": 4500, "cor": "#8b5cf6" }
+      ],
+      "material": [
+        { "label": "Papelão", "valor": 4500, "cor": "#b45309" }
+      ]
+    },
+    {
+      "ano_mes": 202505,
+      "bancada": [
+        { "label": "Bancada B", "valor": 2500, "cor": "#22c55e" },
+        { "label": "Bancada D", "valor": 500, "cor": "#ef4444" }
+      ],
+      "cnpj": [
+        { "label": "Empresa X", "valor": 1500, "cor": "#6366f1" },
+        { "label": "Empresa Y", "valor": 1500, "cor": "#8b5cf6" }
+      ],
+      "material": [
+        { "label": "Plástico", "valor": 3000, "cor": "#10b981" }
+      ]
+    },
+    {
+      "ano_mes": 202506,
+      "bancada": [
+        { "label": "Bancada A", "valor": 800, "cor": "#3b82f6" },
+        { "label": "Bancada C", "valor": 800, "cor": "#eab308" },
+        { "label": "Bancada E", "valor": 800, "cor": "#f97316" },
+        { "label": "Bancada R", "valor": 800, "cor": "#a855f7" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Alpha", "valor": 1600, "cor": "#0ea5e9" },
+        { "label": "Empresa Gamma", "valor": 1600, "cor": "#ec4899" }
+      ],
+      "material": [
+        { "label": "Metal", "valor": 3200, "cor": "#475569" }
+      ]
+    },
+    {
+      "ano_mes": 202507,
+      "bancada": [
+        { "label": "Bancada D", "valor": 3000, "cor": "#ef4444" },
+        { "label": "Bancada A", "valor": 1000, "cor": "#3b82f6" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Delta", "valor": 4000, "cor": "#f43f5e" }
+      ],
+      "material": [
+        { "label": "E-lixo", "valor": 2000, "cor": "#64748b" },
+        { "label": "Plástico", "valor": 2000, "cor": "#10b981" }
+      ]
+    },
+{
+      "ano_mes": 202508,
+      "bancada": [
+        { "label": "Bancada A", "valor": 2100, "cor": "#3b82f6" },
+        { "label": "Bancada C", "valor": 1900, "cor": "#eab308" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Alpha", "valor": 4000, "cor": "#0ea5e9" }
+      ],
+      "material": [
+        { "label": "Metal", "valor": 2500, "cor": "#475569" },
+        { "label": "Plástico", "valor": 1500, "cor": "#10b981" }
+      ]
+    },
+    {
+      "ano_mes": 202509,
+      "bancada": [
+        { "label": "Bancada B", "valor": 1500, "cor": "#22c55e" },
+        { "label": "Bancada D", "valor": 1500, "cor": "#ef4444" },
+        { "label": "Bancada R", "valor": 500, "cor": "#a855f7" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Beta", "valor": 2000, "cor": "#8b5cf6" },
+        { "label": "Empresa Gamma", "valor": 1500, "cor": "#ec4899" }
+      ],
+      "material": [
+        { "label": "E-lixo", "valor": 3500, "cor": "#64748b" }
+      ]
+    },
+    {
+      "ano_mes": 202510,
+      "bancada": [
+        { "label": "Bancada A", "valor": 1200, "cor": "#3b82f6" },
+        { "label": "Bancada E", "valor": 2800, "cor": "#f97316" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Delta", "valor": 4000, "cor": "#f43f5e" }
+      ],
+      "material": [
+        { "label": "Papelão", "valor": 2000, "cor": "#b45309" },
+        { "label": "Vidro", "valor": 2000, "cor": "#06b6d4" }
+      ]
+    },
+    {
+      "ano_mes": 202511,
+      "bancada": [
+        { "label": "Bancada B", "valor": 3000, "cor": "#22c55e" },
+        { "label": "Bancada C", "valor": 1500, "cor": "#eab308" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Alpha", "valor": 2500, "cor": "#0ea5e9" },
+        { "label": "Empresa X", "valor": 2000, "cor": "#6366f1" }
+      ],
+      "material": [
+        { "label": "Metal", "valor": 4500, "cor": "#475569" }
+      ]
+    },
+    {
+      "ano_mes": 202512,
+      "bancada": [
+        { "label": "Bancada A", "valor": 2000, "cor": "#3b82f6" },
+        { "label": "Bancada R", "valor": 3500, "cor": "#a855f7" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Beta", "valor": 5500, "cor": "#8b5cf6" }
+      ],
+      "material": [
+        { "label": "E-lixo", "valor": 5500, "cor": "#64748b" }
+      ]
+    },
+    {
+      "ano_mes": 202601,
+      "bancada": [
+        { "label": "Bancada C", "valor": 1000, "cor": "#eab308" },
+        { "label": "Bancada D", "valor": 1000, "cor": "#ef4444" },
+        { "label": "Bancada E", "valor": 1000, "cor": "#f97316" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Gamma", "valor": 3000, "cor": "#ec4899" }
+      ],
+      "material": [
+        { "label": "Plástico", "valor": 1500, "cor": "#10b981" },
+        { "label": "Vidro", "valor": 1500, "cor": "#06b6d4" }
+      ]
+    },
+    {
+      "ano_mes": 202602,
+      "bancada": [
+        { "label": "Bancada A", "valor": 1500, "cor": "#3b82f6" },
+        { "label": "Bancada B", "valor": 1000, "cor": "#22c55e" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Delta", "valor": 2500, "cor": "#f43f5e" }
+      ],
+      "material": [
+        { "label": "Metal", "valor": 2500, "cor": "#475569" }
+      ]
+    },
+    {
+      "ano_mes": 202603,
+      "bancada": [
+        { "label": "Bancada E", "valor": 3000, "cor": "#f97316" },
+        { "label": "Bancada R", "valor": 2000, "cor": "#a855f7" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Alpha", "valor": 5000, "cor": "#0ea5e9" }
+      ],
+      "material": [
+        { "label": "E-lixo", "valor": 4000, "cor": "#64748b" },
+        { "label": "Papelão", "valor": 1000, "cor": "#b45309" }
+      ]
+    },
+    {
+      "ano_mes": 202604,
+      "bancada": [
+        { "label": "Bancada A", "valor": 1200, "cor": "#3b82f6" },
+        { "label": "Bancada B", "valor": 1200, "cor": "#22c55e" },
+        { "label": "Bancada C", "valor": 1200, "cor": "#eab308" }
+      ],
+      "cnpj": [
+        { "label": "Empresa Y", "valor": 3600, "cor": "#8b5cf6" }
+      ],
+      "material": [
+        { "label": "Plástico", "valor": 3600, "cor": "#10b981" }
+      ]
+    }
+  ]
+}

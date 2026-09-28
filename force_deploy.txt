@@ -1,0 +1,7 @@
+"sem-docker" 
+"porta-5173" 
+"build-completo-5173" 
+"start-direto-5173" 
+"atualizacao-geral" 
+"teste-reabrir-porta" 
+"partida-diaria" 

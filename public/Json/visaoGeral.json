@@ -1,0 +1,68 @@
+{
+  "indicadores_mensais": [
+    {
+      "ano_mes": 202501,
+      "dados": { "coletado": 3149.00, "processado": 2304.57, "nao_processado": 7312.80, "total": 12766.37 }
+    },
+    {
+      "ano_mes": 202502,
+      "dados": { "coletado": 2850.40, "processado": 2100.20, "nao_processado": 6500.15, "total": 11450.75 }
+    },
+    {
+      "ano_mes": 202503,
+      "dados": { "coletado": 3420.10, "processado": 2550.80, "nao_processado": 7800.40, "total": 13771.30 }
+    },
+    {
+      "ano_mes": 202504,
+      "dados": { "coletado": 3100.00, "processado": 2400.00, "nao_processado": 7100.00, "total": 12600.00 }
+    },
+    {
+      "ano_mes": 202505,
+      "dados": { "coletado": 3650.50, "processado": 2800.30, "nao_processado": 8200.90, "total": 14651.70 }
+    },
+    {
+      "ano_mes": 202506,
+      "dados": { "coletado": 2900.20, "processado": 2150.45, "nao_processado": 6900.30, "total": 11950.95 }
+    },
+    {
+      "ano_mes": 202507,
+      "dados": { "coletado": 3200.80, "processado": 2500.60, "nao_processado": 7400.20, "total": 13101.60 }
+    },
+    {
+      "ano_mes": 202508,
+      "dados": { "coletado": 3350.15, "processado": 2600.40, "nao_processado": 7600.55, "total": 13551.10 }
+    },
+    {
+      "ano_mes": 202509,
+      "dados": { "coletado": 3100.90, "processado": 2250.75, "nao_processado": 7200.10, "total": 12551.75 }
+    },
+    {
+      "ano_mes": 202510,
+      "dados": { "coletado": 3800.40, "processado": 3100.20, "nao_processado": 8500.60, "total": 15401.20 }
+    },
+    {
+      "ano_mes": 202511,
+      "dados": { "coletado": 4100.50, "processado": 3400.10, "nao_processado": 9000.30, "total": 16500.90 }
+    },
+    {
+      "ano_mes": 202512,
+      "dados": { "coletado": 4500.00, "processado": 3900.50, "nao_processado": 9800.00, "total": 18200.50 }
+    },
+    {
+      "ano_mes": 202601,
+      "dados": { "coletado": 3200.00, "processado": 2400.30, "nao_processado": 7500.20, "total": 13100.50 }
+    },
+    {
+      "ano_mes": 202602,
+      "dados": { "coletado": 3050.60, "processado": 2200.15, "nao_processado": 7100.40, "total": 12351.15 }
+    },
+    {
+      "ano_mes": 202603,
+      "dados": { "coletado": 3500.75, "processado": 2700.90, "nao_processado": 8000.10, "total": 14201.75 }
+    },
+    {
+      "ano_mes": 202604,
+      "dados": { "coletado": 3300.20, "processado": 2550.40, "nao_processado": 7700.80, "total": 13551.40 }
+    }
+  ]
+}

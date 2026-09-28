@@ -1,0 +1,174 @@
+{
+  "registros": [
+    {
+      "ano_mes": 202501,
+      "meta_mensal": 45000,
+      "indicadores": {
+        "co2": 4.147,
+        "agua": 23040,
+        "energia": 2764
+      },
+      "ordens_servico": [
+        { "os": "OS-001", "processado": 15000, "data": "10/01/2025" },
+        { "os": "OS-002", "processado": 12000, "data": "15/01/2025" },
+        { "os": "OS-003", "processado": 8500, "data": "22/01/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202502,
+      "meta_mensal": 45000,
+      "indicadores": {
+        "co2": 3.85,
+        "agua": 21200,
+        "energia": 2500
+      },
+      "ordens_servico": [
+        { "os": "OS-004", "processado": 20000, "data": "05/02/2025" },
+        { "os": "OS-005", "processado": 18000, "data": "18/02/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202503,
+      "meta_mensal": 50000,
+      "indicadores": {
+        "co2": 5.2,
+        "agua": 28000,
+        "energia": 3100
+      },
+      "ordens_servico": [
+        { "os": "OS-006", "processado": 25000, "data": "12/03/2025" },
+        { "os": "OS-007", "processado": 22000, "data": "20/03/2025" },
+        { "os": "OS-008", "processado": 4000, "data": "28/03/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202504,
+      "meta_mensal": 40000,
+      "indicadores": {
+        "co2": 2.9,
+        "agua": 15000,
+        "energia": 1800
+      },
+      "ordens_servico": [
+        { "os": "OS-009", "processado": 35000, "data": "15/04/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202505,
+      "meta_mensal": 48000,
+      "indicadores": {
+        "co2": 4.5,
+        "agua": 24000,
+        "energia": 2900
+      },
+      "ordens_servico": [
+        { "os": "OS-010", "processado": 10000, "data": "05/05/2025" },
+        { "os": "OS-011", "processado": 15000, "data": "12/05/2025" },
+        { "os": "OS-012", "processado": 15000, "data": "20/05/2025" },
+        { "os": "OS-013", "processado": 9000, "data": "28/05/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202506,
+      "meta_mensal": 55000,
+      "indicadores": {
+        "co2": 6.1,
+        "agua": 32000,
+        "energia": 3800
+      },
+      "ordens_servico": [
+        { "os": "OS-014", "processado": 30000, "data": "10/06/2025" },
+        { "os": "OS-015", "processado": 28000, "data": "25/06/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202507,
+      "meta_mensal": 42000,
+      "indicadores": { "co2": 3.9, "agua": 21500, "energia": 2600 },
+      "ordens_servico": [
+        { "os": "OS-016", "processado": 22000, "data": "14/07/2025" },
+        { "os": "OS-017", "processado": 15000, "data": "28/07/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202508,
+      "meta_mensal": 42000,
+      "indicadores": { "co2": 4.1, "agua": 22800, "energia": 2750 },
+      "ordens_servico": [
+        { "os": "OS-018", "processado": 40500, "data": "15/08/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202509,
+      "meta_mensal": 45000,
+      "indicadores": { "co2": 4.8, "agua": 26000, "energia": 3050 },
+      "ordens_servico": [
+        { "os": "OS-019", "processado": 12000, "data": "05/09/2025" },
+        { "os": "OS-020", "processado": 18000, "data": "15/09/2025" },
+        { "os": "OS-021", "processado": 14000, "data": "25/09/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202510,
+      "meta_mensal": 50000,
+      "indicadores": { "co2": 5.5, "agua": 30000, "energia": 3400 },
+      "ordens_servico": [
+        { "os": "OS-022", "processado": 25000, "data": "10/10/2025" },
+        { "os": "OS-023", "processado": 24000, "data": "22/10/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202511,
+      "meta_mensal": 50000,
+      "indicadores": { "co2": 5.1, "agua": 27500, "energia": 3100 },
+      "ordens_servico": [
+        { "os": "OS-024", "processado": 48000, "data": "15/11/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202512,
+      "meta_mensal": 60000,
+      "indicadores": { "co2": 7.2, "agua": 38000, "energia": 4200 },
+      "ordens_servico": [
+        { "os": "OS-025", "processado": 35000, "data": "12/12/2025" },
+        { "os": "OS-026", "processado": 25000, "data": "27/12/2025" }
+      ]
+    },
+    {
+      "ano_mes": 202601,
+      "meta_mensal": 45000,
+      "indicadores": { "co2": 4.3, "agua": 23500, "energia": 2800 },
+      "ordens_servico": [
+        { "os": "OS-027", "processado": 15000, "data": "08/01/2026" },
+        { "os": "OS-028", "processado": 15000, "data": "15/01/2026" },
+        { "os": "OS-029", "processado": 13500, "data": "25/01/2026" }
+      ]
+    },
+    {
+      "ano_mes": 202602,
+      "meta_mensal": 45000,
+      "indicadores": { "co2": 3.7, "agua": 20000, "energia": 2400 },
+      "ordens_servico": [
+        { "os": "OS-030", "processado": 20000, "data": "10/02/2026" },
+        { "os": "OS-031", "processado": 22000, "data": "22/02/2026" }
+      ]
+    },
+    {
+      "ano_mes": 202603,
+      "meta_mensal": 52000,
+      "indicadores": { "co2": 5.8, "agua": 31000, "energia": 3600 },
+      "ordens_servico": [
+        { "os": "OS-032", "processado": 51000, "data": "15/03/2026" }
+      ]
+    },
+    {
+      "ano_mes": 202604,
+      "meta_mensal": 48000,
+      "indicadores": { "co2": 4.6, "agua": 25000, "energia": 2950 },
+      "ordens_servico": [
+        { "os": "OS-033", "processado": 10000, "data": "05/04/2026" },
+        { "os": "OS-034", "processado": 25000, "data": "20/04/2026" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+- Valores do tipo "total", que deve ser a soma de outros valores estão estáticos, não tem uma lógica para ele mudar sozinho conforme os outros valores mudam
+
+- Todos os dados referentes a peso são numéricos, não string
+
+- Todos os dados referentes a peso estão em quilogramas (kg), não em toneladas
+
+- Os valores em quilos já estão sendo convertidos em toneladas nos códigos (exibindo apenas o primeiro algarismo dos decimais - ex: 10.58 vira 10.5)
+
+- Os arquivos Json estão na pasta "public/Json"
+
+- Tem um arquivo chamado api.ts em "utils/api.ts", nele tem uma constante chamada API_BASE_URL
+
+- Essa constante vai conter a API. Quando colocar a API original, apenas mude a const desse arquivo, não nos códigos
