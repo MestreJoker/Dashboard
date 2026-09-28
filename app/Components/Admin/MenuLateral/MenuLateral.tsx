@@ -1,3 +1,5 @@
+'use client'
+
 import { faCalendar, faLock, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
@@ -12,7 +14,7 @@ export default function MenuLateral() {
         dataCadastro: string;
     }
 
-    const [usuarioSelecionado, setUsuarioSelecionado] = useState<Usuario>({
+    const [usuarioSelecionado] = useState<Usuario>({
         id: 1,
         email: "gestor@empresa.com.br",
         tipo: "INTERNO",
@@ -20,16 +22,6 @@ export default function MenuLateral() {
         ultimoLogin: "27/05/2026 09:12",
         dataCadastro: "15/03/2026 10:22"
     });
-
-    const usuariosLista: Usuario[] = [
-        { id: 1, email: "administrador@empresa.com.br", tipo: "INTERNO", status: "Ativo", ultimoLogin: "28/05/2026 14:35", dataCadastro: "15/03/2026 10:22" },
-        { id: 2, email: "gestor@empresa.com.br", tipo: "INTERNO", status: "Ativo", ultimoLogin: "27/05/2026 09:12", dataCadastro: "10/02/2026 08:41" },
-        { id: 3, email: "financeiro@empresa.com.br", tipo: "INTERNO", status: "Ativo", ultimoLogin: "26/05/2026 16:48", dataCadastro: "05/02/2026 11:15" },
-        { id: 4, email: "cliente1@empresa.com.br", tipo: "CLIENTE", status: "Ativo", ultimoLogin: "28/05/2026 10:22", dataCadastro: "20/04/2026 13:30" },
-        { id: 5, email: "cliente2@empresa.com.br", tipo: "CLIENTE", status: "Ativo", ultimoLogin: "24/05/2026 08:55", dataCadastro: "18/04/2026 09:05" },
-        { id: 6, email: "cliente3@empresa.com.br", tipo: "CLIENTE", status: "Inativo", ultimoLogin: "—", dataCadastro: "12/04/2026 15:22" },
-        { id: 7, email: "suporte@empresa.com.br", tipo: "INTERNO", status: "Ativo", ultimoLogin: "28/05/2026 11:03", dataCadastro: "22/03/2026 16:10" },
-    ];
 
     return (
         <div className="rounded-lg bg-white lg:flex-1 shadow-md overflow-hidden flex flex-col">
@@ -43,7 +35,6 @@ export default function MenuLateral() {
             {/*Avatar e email do usuário selecionado*/}
             <div className="p-4 md:p-6 border-b border-gray-100 flex flex-col items-center text-center">
                 <div className="w-16 h-16 rounded-full bg-[#4a54ff] flex items-center justify-center mb-3">
-                    {/* CORRIGIDO: Alterado de faMailchimp para faUser */}
                     <FontAwesomeIcon icon={faUser} className="text-white text-2xl" />
                 </div>
                 <p className="font-bold text-sm md:text-base">{usuarioSelecionado.email}</p>
@@ -59,7 +50,6 @@ export default function MenuLateral() {
                 <p className="font-bold text-sm mb-3">Informações</p>
                 <div className="space-y-2">
                     <div className="flex items-center gap-2 text-gray-600">
-                        {/* CORRIGIDO: Alterado de faMailchimp para faUser */}
                         <FontAwesomeIcon icon={faUser} className="w-4 text-[#4a54ff]" />
                         <div>
                             <p className="text-xs text-gray-500">E-mail</p>
@@ -112,4 +102,3 @@ export default function MenuLateral() {
         </div>
     )
 }
-

@@ -12,7 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "Gerenciamento do sistema", 
+};
 
 export default function RootLayout({
   children,

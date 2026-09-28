@@ -1,11 +1,9 @@
-'use client'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Header from "../Components/Header/page";
-import { faGear, faLock, faShield, faShieldHalved, faUser, faUserGroup, faUserLock, faUserTie, faPencil, faTrash, faEllipsisVertical, faCalendar } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { faGear } from "@fortawesome/free-solid-svg-icons";
 import CardsTipoCliente from "../Widgets/CardsTipoCliente/page";
-import TabelaUsuarios from "../Components/Admin/TabelaUsuarios/page";
-import MenuLateral from "../Components/Admin/MenuLateral/page";
+import TabelaUsuarios from "../Components/Admin/TabelaUsuarios/TabelaUsuarios";
+import MenuLateral from "../Components/Admin/MenuLateral/MenuLateral";
 
 
 
