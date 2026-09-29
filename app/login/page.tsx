@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import Header from '../Components/Header/page';
+import Header from '../Components/Header';
 import { getStoredSession, loginLocalUser } from '../utils/localAuth';
 
 export default function LoginPage() {

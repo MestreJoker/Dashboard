@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import Header from '../Components/Header/page';
+import Header from '../Components/Header';
 import { registerLocalUser } from '../utils/localAuth';
 
 export default function RegisterPage() {

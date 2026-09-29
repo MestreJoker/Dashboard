@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Header from "../Components/Header/page";
+import Header from "../Components/Header";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
-import CardsTipoCliente from "../Widgets/CardsTipoCliente/page";
-import TabelaUsuarios from "../Components/Admin/TabelaUsuarios/TabelaUsuarios";
-import MenuLateral from "../Components/Admin/MenuLateral/MenuLateral";
+import CardsTipoCliente from "../Widgets/CardsTipoCliente";
+import TabelaUsuarios from "../Components/Admin/TabelaUsuarios";
+import MenuLateral from "../Components/Admin/MenuLateral";
 
 
 

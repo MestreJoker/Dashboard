@@ -6,12 +6,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 import AnaliseComparativa from "@/app/Components/AnaliseComparativa/page"
-import FiltrosDashboard from "@/app/Components/FiltrosDashboard/page"
-import Indicadores_Volume from "@/app/Components/Indicadores_Volume/page"
-import ListaEmpresas from "@/app/Components/ListaEmpresas/page"
-import VisaoGeral from "@/app/Components/VisaoGeral/page"
-import TabelaListaOS from "@/app/Components/TabelaListaOs/page";
-import Header from "../Components/Header/page";
+import FiltrosDashboard from "@/app/Components/FiltrosDashboard"
+import Indicadores_Volume from "@/app/Components/Indicadores_Volume"
+import ListaEmpresas from "@/app/Components/ListaEmpresas"
+import VisaoGeral from "@/app/Components/VisaoGeral"
+import TabelaListaOS from "@/app/Components/TabelaListaOs";
+import Header from "../Components/Header";
 import { clearSession, getStoredSession } from "../utils/localAuth";
 
 type TipoUsuario = "CLIENTE" | "INTERNO";

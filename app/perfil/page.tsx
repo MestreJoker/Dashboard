@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect } from "react";
-import Header from "../Components/Header/page";
+import Header from "../Components/Header";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

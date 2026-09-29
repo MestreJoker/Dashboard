@@ -10,7 +10,7 @@ export default function LandingPage() {
                     {/* Logo - Aparece primeiro */}
                     <div className="animate-reveal" style={{ animationDelay: '0.1s' }}>
                         <Image
-                            src="/images/infinityLogo2.png"
+                            src="/images/InfinityLogo2.png"
                             width={250} height={50} alt="Logo" className="mb-8 brightness-0 invert"
                         />
                     </div>

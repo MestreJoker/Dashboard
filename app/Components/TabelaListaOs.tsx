@@ -81,8 +81,6 @@ export default function TabelaListaOS({
     }
 
     useEffect(() => {
-        resgatarDados();
-
         const intervalo = setInterval(() => {
             resgatarDados();
         }, 3000);

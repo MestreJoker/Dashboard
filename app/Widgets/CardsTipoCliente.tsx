@@ -1,4 +1,4 @@
-import CardTipoCliente from "@/app/Components/CardTipoCliente/page"
+import CardTipoCliente from "@/app/Components/CardTipoCliente"
 import { faUser, faUserGroup, faUserLock, faUserTie } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -12,10 +12,10 @@ export default function CardsTipoCliente(){
     ]
 
     const icones = [
-        <FontAwesomeIcon icon={faUserGroup} className="w-5 md:w-7 text-white"  />,
-        <FontAwesomeIcon icon={faUser} className="w-5 md:w-7 text-white"  />,
-        <FontAwesomeIcon icon={faUserTie} className="w-5 md:w-7 text-white"  />,
-        <FontAwesomeIcon icon={faUserLock} className="w-5 md:w-7 text-white"  />
+        <FontAwesomeIcon key={'icone1'} icon={faUserGroup} className="w-5 md:w-7 text-white"  />,
+        <FontAwesomeIcon key={'icone2'} icon={faUser} className="w-5 md:w-7 text-white"  />,
+        <FontAwesomeIcon key={'icone3'} icon={faUserTie} className="w-5 md:w-7 text-white"  />,
+        <FontAwesomeIcon key={'icone4'} icon={faUserLock} className="w-5 md:w-7 text-white"  />
     ]
 
     return(

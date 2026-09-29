@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import GraficoRosca from "./GraficoRosca/page";
-import GraficoBarras from "./GraficoBarras/page";
+import GraficoRosca from "./GraficoRosca";
+import GraficoBarras from "./GraficoBarras";
 
 interface Material {
     material: string;
