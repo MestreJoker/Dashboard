@@ -21,7 +21,7 @@ export default function RegisterPage() {
     const validateForm = (): boolean => {
         const newErrors: { [key: string]: string } = {};
 
-        // Validar username (Tratado agora como E-mail devido à nova regra de negócio)
+        // Validar username
         if (!formData.username.trim()) {
             newErrors.username = 'E-mail é obrigatório';
         } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.username)) {
@@ -71,7 +71,7 @@ export default function RegisterPage() {
                 alert('Usuário cadastrado com sucesso!');
                 router.push('/dashboard');
             } else {
-                setErrors({ submit: result.message });
+                setErrors({ submit: (result as any).message || 'Erro ao realizar cadastro' });
             }
         } catch (error) {
             setErrors({ submit: 'Erro ao processar cadastro local' });
