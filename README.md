@@ -6,7 +6,7 @@ Descrição
 Esta calculadora permite realizar operações básicas como adição, subtração, multiplicação e divisão. Ela inclui um visor interativo e suporta cálculos responsivos em dispositivos móveis e desktops, com um design intuitivo e funcional.
 
 <h1>Funcionalidades</h1>
-Login e cadastro (simulados) e consulta de relatórios complexos por filtros (a
+Login e cadastro (simulados) e consulta de relatórios complexos por filtros
 
 <h1>Tecnologias Utilizadas</h1>
 NextJS, React, TypeScript, Taiwlind CSS
