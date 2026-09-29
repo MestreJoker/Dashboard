@@ -1,0 +1,36 @@
+[33mcommit 5cb30f5ff162dd99513be1334ecb6d262530fd32[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 9a53fe8 2dac46f
+Author: Gabriel dos Santos Gomes <mestrejoker1104@gmail.com>
+Date:   Mon Sep 28 22:05:08 2026 -0300
+
+    Register corrigido
+
+[33mcommit 9a53fe89ef1934938fd731cfd8ab591e9c0f71ef[m
+Author: Gabriel dos Santos Gomes <mestrejoker1104@gmail.com>
+Date:   Mon Sep 28 22:02:40 2026 -0300
+
+    Caminhos e nomeação dos arquivos de Coponents e Widgets alinhados às boas práticas e caminho de imagem corrigido
+
+[33mcommit 2dac46f86381b26adeffc1257c16ee32ef0b9e9a[m
+Author: unknown <gabriel.gomes@gruporeciclo.com>
+Date:   Mon Sep 28 13:05:37 2026 -0300
+
+    Erro de tipagem corrigido
+
+[33mcommit ff5195a543855ca6b5cb790b7ff6ba916a46570c[m
+Author: Gabriel dos Santos Gomes <mestrejoker1104@gmail.com>
+Date:   Mon Sep 28 11:41:09 2026 -0300
+
+    Nome de rotas corrigidos e melhorados
+
+[33mcommit 30b8c81366e089b867503e245c18d99e20981b2c[m
+Author: Gabriel dos Santos Gomes <mestrejoker1104@gmail.com>
+Date:   Mon Sep 28 11:18:40 2026 -0300
+
+    Verificação rígida removida (acesso irrestrito a Dashboard)
+
+[33mcommit bb35667ae5b2133883304c080d3190350cb24e3c[m
+Author: Gabriel dos Santos Gomes <mestrejoker1104@gmail.com>
+Date:   Sun Sep 27 23:30:05 2026 -0300
+
+    Arquivos adicionados ao repositório git
